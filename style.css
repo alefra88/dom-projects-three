@@ -78,8 +78,13 @@ html {
  */
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
   font-family: var(--font-prim--1);
-  margin: 0;
+  background: url(assets/img1.png), no-repeat, center center/ cover;
 }
 
 /**
@@ -207,7 +212,11 @@ sup {
 img {
   border-style: none;
 }
-
+img,
+video {
+  width: 100%;
+  height: auto;
+}
 /* Forms
    ========================================================================== */
 
@@ -416,3 +425,7 @@ template {
 ========================================================================== 
 
 */
+
+.container{
+  
+}
