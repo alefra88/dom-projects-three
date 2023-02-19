@@ -84,7 +84,7 @@ body {
   height: 100vh;
   text-align: center;
   font-family: var(--font-prim--1);
-  background-image: url(assets/img1.png);
+  background-image: url(../assets/img1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; /*no-repeat, center center/ cover; */
