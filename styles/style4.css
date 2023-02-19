@@ -57,17 +57,36 @@ button i {
   width: 100%;
   background-color: transparent;
   display: flex;
+  cursor: pointer;
 }
 
 #play {
-  background-color: rgba(8, 164, 8,.5);
+  background-color: rgba(8, 164, 8, 0.5);
 }
 
 #pause {
-
-  background-color: rgba(195, 21, 39,.5);
+  background-color: rgba(195, 21, 39, 0.5);
 }
 
 #reset {
-  background-color: rgba(195, 21, 39,.5);
+  background-color: rgba(195, 21, 39, 0.5);
+}
+
+footer {
+  padding-top: 1em;
+}
+footer div {
+  display: inline;
+  -ms-flex-direction: row;
+  border: thin solid #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+footer div:hover {
+  background-color: rgba(173, 216, 230, 0.4);
+}
+footer div a {
+  text-decoration: none;
+  color: lightskyblue;
 }
