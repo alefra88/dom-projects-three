@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(../assets/img4.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 60%;
+  height: 190px;
+  background-color: rgba(254, 253, 253, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(238, 128, 37, 0.284);
+  box-shadow: 0 0 10px;
+}
+
+#timer {
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  margin: 0px auto;
+  padding: 1em;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btn {
+  margin: 0 10px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+button i {
+  font-size: 2rem;
+  padding: 10px;
+  color: black;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+}
+
+#play {
+  background-color: rgba(8, 164, 8,.5);
+}
+
+#pause {
+
+  background-color: rgba(195, 21, 39,.5);
+}
+
+#reset {
+  background-color: rgba(195, 21, 39,.5);
+}
